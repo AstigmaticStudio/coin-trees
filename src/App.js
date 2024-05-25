@@ -1,9 +1,16 @@
 import './App.css';
+const tg = window.Telegram.WebApp;
 
 function App() {
+
+  const onClose = () =>{
+    tg.close()
+  }
+
   return (
     <div className="App">
-      работает4rrfff4r4r4
+      работает
+      <button onClick={onClose}>Закрыть</button>
     </div>
   );
 }
