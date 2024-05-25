@@ -3,14 +3,14 @@ const tg = window.Telegram.WebApp;
 
 function App() {
 
-  const onClose = () =>{
+  const onClose = () => {
     tg.close()
   }
 
   return (
     <div className="App">
-      работает
-      <button onClick={onClose}>Закрыть</button>
+     работает
+
     </div>
   );
 }
