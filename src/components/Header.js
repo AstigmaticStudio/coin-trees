@@ -4,7 +4,7 @@ export default function header() {
   return (
     <header>
         <div>
-            Money Treesss
+            Money Trees
         </div>
     </header>
   )
