@@ -1,18 +1,14 @@
 import './App.css';
-const tg = window.Telegram.WebApp;
 
 import Header from './components/Header';
+import StartButton from './components/StartButton';
 
 function App() {
-
-  const onClose = () => {
-    tg.close();
-  }
 
   return (
     <div className="App">
      <Header />
-     <button onClick={onClose}>Закрыть</button>
+     <StartButton />
     </div>
   );
 }
