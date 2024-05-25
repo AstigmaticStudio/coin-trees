@@ -1,6 +1,8 @@
 import './App.css';
 const tg = window.Telegram.WebApp;
 
+import header from './components/header';
+
 function App() {
 
   const onClose = () => {
@@ -9,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-     работает
+     <Header />
      <button onClick={onClose}>Закрыть</button>
     </div>
   );
