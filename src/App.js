@@ -1,10 +1,10 @@
 import './App.css';
-const tg = window.Telegram.WebApp;
+
 
 function App() {
 
   const onClose = () => {
-    tg.close()
+    alert("Први")
   }
 
   return (
