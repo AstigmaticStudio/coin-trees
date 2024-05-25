@@ -9,6 +9,7 @@ export default function StartButton() {
 
   return (
     <div className='start_button'>
+        tg.expand()
         <button onClick={onClose}>Start</button>
     </div>
   )
