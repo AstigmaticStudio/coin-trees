@@ -4,12 +4,11 @@ const tg = window.Telegram.WebApp;
 export default function StartButton() {
 
     const onClose = () => {
-        tg.close();
+        tg.expand()
       }
 
   return (
     <div className='start_button'>
-        tg.expand()
         <button onClick={onClose}>Start</button>
     </div>
   )
