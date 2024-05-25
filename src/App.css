@@ -7,9 +7,12 @@
 }
 
 header {
-  font-weight: 600;
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
 
 body {
-  color: darkseagreen;
+  background: darkseagreen;
 }
