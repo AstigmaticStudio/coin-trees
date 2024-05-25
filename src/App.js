@@ -1,7 +1,7 @@
 import './App.css';
 const tg = window.Telegram.WebApp;
 
-import header from './components/header';
+import header from './components/Header';
 
 function App() {
 
