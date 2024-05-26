@@ -21,10 +21,11 @@ body {
 }
 
 .start_button {
-  
+  margin-top: 50px;
 }
 
 .start_menu {
+  position: relative;
   max-width: 390px;
   text-align: center;
 }
