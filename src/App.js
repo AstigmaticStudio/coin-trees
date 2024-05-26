@@ -6,7 +6,7 @@ import StartButton from './components/StartButton';
 function App() {
 
   return (
-    <div className="App">
+    <div className='start_menu'>
      <Header />
      <StartButton />
     </div>
